@@ -127,4 +127,12 @@ ylab = "glicose",
 col = "green"
 horizontal = TRUE)
 
+#as medidas de tendencia central e dispersao sao fundamentais p/ entender como os dados se comportam, ou seja, onde eles se concentram e o quanto eles variam. isso ajuda a entender o perfil de amostras , identificar possiveis problemas (se media e mediana sao muito diferentes pode aver outliers distorcendo os dados, bom para comparar grupos e escolher testes estatisticos apropriados.
 
+#10. Isso é importante para que o estudo seja valido, tenha confiabilidade e que os resultados tenham aplicabilidade.
+O delineamento de pesquisa define como os dados serão coletados, analisados e interpretados, precisa estar alinhado com o objetivo da pesquisa. 
+É importante para que a pergunta da pesquisa seja respondida corretamente, define se é possível estabelecer relações entre causa e efeito, ajuda a evitar viés e escolher métodos de estatística adequados, facilita a reprodução do estudo por outros pesquisadores.
+Métodos de amostragem
+Define quem será incluído no estudo e como os participantes serão escolhidos. 
+Garante representatividade da população alvo, evita viés de seleção, influencia a confiabilidade dos resultados, permite generalizar os achados com mais segurança, afeta o tamanho da amostra necessária e a potencia estatística do estudo. 
+Em estudos de saúde, isso é ainda mais importante porque estamos lidando com vidas humanas e decisões clinicas, resultados errados podem levar a condutas erradas e tratamentos ineficazes. Um bom delineamento e amostragem fortalecem a credibilidade cientifica do estudo.

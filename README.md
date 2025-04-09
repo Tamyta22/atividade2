@@ -6,7 +6,7 @@ data("birthwt")
 # Visualizando as primeiras linhas do banco de dados
 head(birthwt)
 
-#Como você realizaria uma amostragem aleatória simples com 20 mulheres deste banco de dados?
+# Como você realizaria uma amostragem aleatória simples com 20 mulheres deste banco de dados?
 library(mlbench)
 data(PimaIndiansDiabetes)
 set.seed(123) #para reproduçao
@@ -35,7 +35,7 @@ amostra_estratificada <- rbind(amostra_com_diabetes, amostra_sem_diabetes)
 #visualizar
 amostra_estratificada
 
-#e se fosse p/fazer uma amostragem estratificada proporcional ao banco de dados?
+# e se fosse p/fazer uma amostragem estratificada proporcional ao banco de dados?
 
 #primeiro checar a proporcao do banco de dados
 
@@ -71,7 +71,7 @@ amostra_proporcional <- rbind(am_pos, am_neg)
 #visualizar amostra
 amostra_proporcional
 
-#ANALISE DE VARIAVEIS QUANTITATIVAS
+# ANALISE DE VARIAVEIS QUANTITATIVAS
 #verificando a variavel "glucose", exemplo
 summary(PimaIndiansDiabetes$glucose)
 
@@ -109,7 +109,7 @@ quantile(dados)
 #se quiser ver percentis especificos
 quantile(dados, probs = c(0.25, 0.5, 0.75)) 
 
-#COMO FAZER GRAFICO
+# COMO FAZER GRAFICO
 #SE quiser tratar valores 0 como NA
 PimaIndiansDiabetes$glucose[PimaIndiansDiabetes$glucose == 0] <- NA
 

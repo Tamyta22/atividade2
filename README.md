@@ -1,4 +1,5 @@
 #Instalando e carregando o pacote MASS (se necessário)
+
 if (!require(MASS)) install.packages("MASS")
 library(MASS)
 #Carregando o banco de dados birthwt
@@ -7,6 +8,7 @@ data("birthwt")
 head(birthwt)
 
 #Como você realizaria uma amostragem aleatória simples com 20 mulheres deste banco de dados?
+
 library(mlbench)
 data(PimaIndiansDiabetes)
 set.seed(123) #para reproduçao
